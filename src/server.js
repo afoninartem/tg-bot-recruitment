@@ -19,7 +19,7 @@ const server = () => {
         next();
     });
     app.get("/", (req, res) => {
-        res.send("fdfdf");
+        res.send("Bot is ready to work!");
     });
     app.use("/api", candidateRouter, resultsRouter);
     app.listen(PORT, () => console.log(`server start at port ${PORT}, link: http://localhost:${PORT}`));
