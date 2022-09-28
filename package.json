@@ -2,7 +2,7 @@
   "name": "tg-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "bot.js",
+  "main": "src/bot.js",
   "engines": {
     "node": "12.x"
   },
