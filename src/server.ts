@@ -15,7 +15,7 @@ export const server = () => {
     next();
 });
   app.get("/", (req: Request, res: Response) => {
-    res.send("fdfdf")
+    res.send("Bot is ready to work!")
   })
 
   app.use("/api", candidateRouter, resultsRouter)
